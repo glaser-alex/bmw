@@ -1,16 +1,5 @@
 /* -------------------------------- Mobil -------------------------------- */
 @media only screen and (max-width: 419.5px) {
-    html{
-        width: auto;
-        height: 100%;
-    }
-    body{
-        margin: 0;
-        width: auto;
-        height: 200%;
-        display: block;
-        font-family: Calibri, sans-serif, Arial;
-    }
     table{
         padding: 0;
         border-spacing: 0;

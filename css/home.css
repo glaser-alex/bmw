@@ -1,8 +1,16 @@
-html {
-    font-family: Calibri, sans-serif, Arial, Helvetica;
-}
 /* -------------------------------- Mobil -------------------------------- */
 @media only screen and (max-width: 419.5px) {
+    html{
+        width: auto;
+        height: 100%;
+    }
+    body{
+        margin: 0;
+        width: 100%;
+        height: 200%;
+        display: block;
+        font-family: Calibri, sans-serif, Arial;
+    }
     /* ------------------------------- Überschrift ------------------------------- */
     h1 {
         letter-spacing: 2px;
