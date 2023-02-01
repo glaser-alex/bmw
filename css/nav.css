@@ -88,17 +88,6 @@
 
 /* -------------------------------- Tablet -------------------------------- */
 @media only screen and (min-width: 420px) and (max-width: 720px) {
-    html{
-        width: auto;
-        height: 100%;
-    }
-    body{
-        margin: 0;
-        width: auto;
-        height: 200%;
-        display: block;
-        font-family: Calibri;
-    }
     table{
         padding: 0;
         border-spacing: 0;
@@ -204,17 +193,6 @@
 
 /* -------------------------------- Desktop -------------------------------- */
 @media only screen and (min-width: 720px) {
-    html{
-        width: auto;
-        height: 100%;
-    }
-    body{
-        margin: 0;
-        width: auto;
-        height: 200%;
-        display: block;
-        font-family: Calibri;
-    }
     table{
         padding: 0;
         border-spacing: 0;

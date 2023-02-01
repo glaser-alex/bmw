@@ -13,10 +13,13 @@
     }
     /* ------------------------------- Überschrift ------------------------------- */
     h1 {
-        letter-spacing: 2px;
-        font-size: 30px;
         width: 100%;
-        box-sizing: border-box;
+        font-size: 34px;
+        letter-spacing: 2px;
+        padding-bottom: 10%;
+    }
+    h3 {
+        margin: 0 0 0 20px;
     }
     /* -------------------------------- Section ---------------------------------- */
     section {
@@ -27,24 +30,23 @@
     /* *************************************************************************** */
     /* -------------------- Section bei der das Img links ist -------------------- */
     .section-img-left img {
-        position: relative; top: 400px; left: 18%;
+        position: relative; top: 350px; left: 18%;
     }
     /* ---------------------- Rechter Text in einer Section ---------------------- */
     .section-infos-right {
-        position: absolute; right: 10%;
+        position: absolute; left: 0%;
     }
-    /* *************************************************************************** */
 
     /* *************************************************************************** */
     /* -------------------- Section bei der das Img rechts ist ------------------- */
     .section-img-right img {
         display: none;
-        position: absolute; top: 55%; right: 10%;
     }
     /* ---------------------- Linker Text in einer Section ---------------------- */
     .section-infos-left {
-        position: absolute; top: 55%; left: 5%;
+        position: absolute; top: 55%; left: 0%;
     }
+
     /* *************************************************************************** */
     /* ----------------------------- Fußzeile-Text ------------------------------- */
     .footer-text {
@@ -76,7 +78,6 @@
         color: white;
         margin: 0 auto;
         display: block;
-        font-family: Calibri;
         /* border: 1px solid black; */
     }
     /* ---------------------------- Paragraph im body-text-------------------------- */
@@ -177,7 +178,6 @@
         color: white;
         margin: 0 auto;
         display: block;
-        font-family: Calibri;
         /* border: 1px solid black; */
     }
     /* ---------------------------- Paragraph im body-text-------------------------- */
