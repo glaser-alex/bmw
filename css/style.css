@@ -1,0 +1,181 @@
+html{
+    width: auto;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: auto;
+    height: 200%;
+    display: block;
+    font-family: Calibri;
+}
+table{
+    padding: 0;
+    border-spacing: 0;
+    /* border: 1px solid black; */
+}
+tr{
+    padding: 0;
+    border-spacing: 0;
+    /* border: 1px solid black; */
+}
+td{
+    padding: 0;
+    border-spacing: 0;
+    /* border: 1px solid black; */
+}
+a{
+    padding: 0;
+    border-spacing: 0;
+    /* border: 1px solid black; */
+}
+.body{
+    z-index: 50;
+    transition: 0.2s;
+    overflow: hidden;
+    background: #ffffff50;
+    backdrop-filter: blur(10px);
+}
+.body a{
+    text-decoration: none;
+    color: white;
+}
+.body1{
+    width: 15%;
+    height: 40%;
+    position: absolute; top: 17%; left: 3%;
+}
+.body2{
+    width: 46%;
+    height: 40%;
+    position: absolute; top: 17%; left: 19%;
+}
+.body3{
+    width: 15%;
+    height: 40%;
+    position: absolute; top: 17%; left: 66%;
+}
+.body4{
+    width: 15%;
+    height: 76%;
+    position: absolute; top: 17%; left: 82%;
+}
+.body5{
+    width: 78%;
+    height: 33%;
+    position: absolute; top: 60%; left: 3%;
+}
+.body a{
+    text-decoration: none;
+    color: white;
+}
+.body:hover{
+    transform: 0.2s;
+    transform: translate(0px, -10px);
+}
+.header{
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 150%;
+    width: fit-content;
+    filter: brightness(200%);
+    background: linear-gradient(50deg,
+                                #0059d4,
+                                #b40000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: 1px solid black; */
+    
+}
+.body-line{
+    width: 80%;
+    height: 1px;
+    margin: 10px auto ;
+    filter: brightness(200%);
+    background: linear-gradient(90deg,
+                                #0059d4,
+                                #00204d,
+                                #990000);
+}
+.body-text{
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    height: fit-content;
+    font-family: Calibri;
+    /* border: 1px solid black; */
+}
+.flex{
+    display: flex;
+}
+.none{
+    display: none;
+}
+.img-body1{
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px #00000099;
+}
+.img-body2{
+    width: 250px;
+    height: fit-content;
+    position: relative; left: -20px; top: 20px;
+    box-shadow: 10px 10px 10px #00000099;
+}
+.img-body3{
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px #00000099;
+}
+.img-body4{
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px #00000099;
+}
+.img-body5{
+    width: 250px;
+    height: fit-content;
+    position: relative; left: -20px; top: 15px;
+    box-shadow: 10px 10px 10px #00000099;
+}
+.b-home{
+    height: 100%;
+    background-size: cover;
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../Bilder/home.jpg");
+}
+.b-firma{
+    height: 100%;
+    background-size: cover;
+    filter: saturate(100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../Bilder/bmw-firma-gebeude.jpg");
+}
+.b-autos{
+    height: 100%;
+    background-size: cover;
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../Bilder/bmw_grün.jpg");
+}
+.b-neues{
+    height: 100%;
+    background-size: cover;
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../Bilder/bmw-ix.jpg");
+}
+.b-mitarbeiter{
+    height: 100%;
+    background-size: cover;
+    filter: brightness(100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../Bilder/BMW-Logo.webp");
+}
