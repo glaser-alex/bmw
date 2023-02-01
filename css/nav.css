@@ -9,7 +9,7 @@
         width: auto;
         height: 200%;
         display: block;
-        font-family: Calibri;
+        font-family: Calibri, sans-serif, Arial;
     }
     table{
         padding: 0;
@@ -38,7 +38,7 @@
         letter-spacing: 1px;
         background-color: #ffffffF0;
         box-shadow: 5px 0px 30px black;
-        position: fixed; top: 0; right: 0; left: 0;
+        position: sticky; top: 0;
     }
     .tr-1 :first-child{
         display: flex;
@@ -52,44 +52,22 @@
         #990000);
     }
     .logo-m{
-        height: 30px;
-        box-sizing: border-box;
+        height: 45px;
     }
     .select{
         display: none;
-        width: 100%;
-        height: 5px;
-        margin-top: 5px;
-        border-radius: 3px;
-        background: linear-gradient(  90deg,
-        rgba(59, 137, 255, 0.7),
-        rgba(2, 0, 80, 0.7),
-        rgba(192, 0, 0, 0.7));
     }
     td > .underline{
         display: none;
-        width: 0px;
-        height: 0px;
-        border-radius: 5px; top: 2px;
-        background: linear-gradient(  90deg,
-        rgba(59, 137, 255, 0.7),
-        rgba(2, 0, 80, 0.7),
-        rgba(192, 0, 0, 0.7));
-        transition: width 0.1s, height 0.1s, padding-top 0.2s;
-    }
-    td:hover > .underline{
-        width: 100%;
-        height: 5px;
-        margin-top: 5px;
-        transition: width 0.2s, height 0.1s, padding-top 0.2s;
     }
     .link{
         width: 0;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 3px;
+        padding-right: 6px;
     }
     .link a{
         height: 25px;
+        height: 30px;
         color: black;
         padding-top: 15px;
         width: fit-content;
@@ -99,9 +77,11 @@
         background: transparent;
         border: 0;
         color: black;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 0 5px 0 5px;
         text-decoration: none;
+    }
+    #link-nav {
+        display: none;
     }
     .logo-mp{
         height: 5px;

@@ -1,3 +1,6 @@
+html {
+    font-family: Calibri, sans-serif, Arial, Helvetica;
+}
 /* -------------------------------- Mobil -------------------------------- */
 @media only screen and (max-width: 419.5px) {
     /* ------------------------------- Überschrift ------------------------------- */
@@ -6,7 +9,6 @@
         font-size: 30px;
         width: 100%;
         box-sizing: border-box;
-        border: solid red 2px;
     }
     /* -------------------------------- Section ---------------------------------- */
     section {
