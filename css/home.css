@@ -1,85 +1,184 @@
-/* ------------------------------- Überschrift ------------------------------- */
-h1 {
-    letter-spacing: -3px;
-    font-size: 100px;
-    width: 70%;
-}
-/* -------------------------------- Section ---------------------------------- */
-section {
-    margin: 0 auto;
-    display: flex;
-    width: 100%;
-}
-/* *************************************************************************** */
-/* -------------------- Section bei der das Img links ist -------------------- */
-.section-img-left img {
-    position: relative; left: 10%;
-}
-/* ---------------------- Rechter Text in einer Section ---------------------- */
-.section-infos-right {
-    position: absolute; right: 10%;
-}
-/* *************************************************************************** */
+/* -------------------------------- Mobil -------------------------------- */
+@media only screen and (max-width: 419.5px) {
+    /* ------------------------------- Überschrift ------------------------------- */
+    h1 {
+        letter-spacing: 2px;
+        font-size: 30px;
+        width: 100%;
+        box-sizing: border-box;
+        border: solid red 2px;
+    }
+    /* -------------------------------- Section ---------------------------------- */
+    section {
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+    }
+    /* *************************************************************************** */
+    /* -------------------- Section bei der das Img links ist -------------------- */
+    .section-img-left img {
+        position: relative; left: 10%;
+    }
+    /* ---------------------- Rechter Text in einer Section ---------------------- */
+    .section-infos-right {
+        position: absolute; right: 10%;
+    }
+    /* *************************************************************************** */
 
-/* *************************************************************************** */
-/* -------------------- Section bei der das Img rechts ist ------------------- */
-.section-img-right img {
-    position: absolute; top: 55%; right: 10%;
+    /* *************************************************************************** */
+    /* -------------------- Section bei der das Img rechts ist ------------------- */
+    .section-img-right img {
+        position: absolute; top: 55%; right: 10%;
+    }
+    /* ---------------------- Linker Text in einer Section ---------------------- */
+    .section-infos-left {
+        position: absolute; top: 55%; left: 5%;
+    }
+    /* *************************************************************************** */
+    /* ----------------------------- Fußzeile-Text ------------------------------- */
+    .footer-text {
+        color: white;
+        padding: 0 20px 20px 10%;
+    }
+    /* ----------------------- Background der Home Website ----------------------- */
+    .b-home{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/home.jpg");
+    }
+    /* ------------------------- Body der Home Webseite --------------------------- */
+    .body-home{
+        z-index: 50;
+        width: 90%;
+        height: 187%;
+        overflow: hidden;
+        background: #00000099;
+        backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
+    /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
+    .body-text{
+        width: 90%;
+        color: white;
+        margin: 0 auto;
+        display: block;
+        font-family: Calibri;
+        /* border: 1px solid black; */
+    }
+    /* ---------------------------- Paragraph im body-text-------------------------- */
+    .body-text p {
+        color: white;
+        font-size: large;
+
+    }
+    /* ----------------------- Linear gradiant von blau zu rot --------------------- */
+    .gradient {
+        width: fit-content;
+        filter: brightness(200%);
+        background: linear-gradient(120deg,#0059d4,#b40000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /* -------------------------------- Fußzeile --------------------------------- */
+    footer {
+        width: 100%;
+        position: absolute; bottom: 0;
+    }
 }
-/* ---------------------- Linker Text in einer Section ---------------------- */
-.section-infos-left {
-    position: absolute; top: 55%; left: 5%;
-}
-/* *************************************************************************** */
-/* ----------------------------- Fußzeile-Text ------------------------------- */
-.footer-text {
-    color: white;
-    padding: 0 20px 20px 10%;
-}
-/* ----------------------- Background der Home Website ----------------------- */
-.b-home{
-    height: 100%;
-    background-size: cover;
-    filter: brightness(100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("../Bilder/home.jpg");
-}
-/* ------------------------- Body der Home Webseite --------------------------- */
-.body-home{
-    z-index: 50;
-    width: 90%;
-    height: 187%;
-    overflow: hidden;
-    background: #00000099;
-    backdrop-filter: blur(10px);
-    position: absolute; top: 13%; left: 5%;
-}
-/* ---------------- Text einstellungen im Body der Home Webseite -------------- */
-.body-text{
-    width: 90%;
-    color: white;
-    margin: 0 auto;
-    display: block;
-    font-family: Calibri;
-    /* border: 1px solid black; */
-}
-/* ---------------------------- Paragraph im body-text-------------------------- */
-.body-text p {
-    color: white;
-    font-size: large;
+
+/* -------------------------------- Tablet -------------------------------- */
+@media only screen and (min-width: 420px) and (max-width: 720px) {
 
 }
-/* ----------------------- Linear gradiant von blau zu rot --------------------- */
-.gradient {
-    width: fit-content;
-    filter: brightness(200%);
-    background: linear-gradient(120deg,#0059d4,#b40000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-/* -------------------------------- Fußzeile --------------------------------- */
-footer {
-    width: 100%;
-    position: absolute; bottom: 0;
+
+/* -------------------------------- Desktop -------------------------------- */
+@media only screen and (min-width: 720px) {
+    /* ------------------------------- Überschrift ------------------------------- */
+    h1 {
+        letter-spacing: -3px;
+        font-size: 100px;
+        width: 70%;
+    }
+    /* -------------------------------- Section ---------------------------------- */
+    section {
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+    }
+    /* *************************************************************************** */
+    /* -------------------- Section bei der das Img links ist -------------------- */
+    .section-img-left img {
+        position: relative; left: 10%;
+    }
+    /* ---------------------- Rechter Text in einer Section ---------------------- */
+    .section-infos-right {
+        position: absolute; right: 10%;
+    }
+    /* *************************************************************************** */
+
+    /* *************************************************************************** */
+    /* -------------------- Section bei der das Img rechts ist ------------------- */
+    .section-img-right img {
+        position: absolute; top: 55%; right: 10%;
+    }
+    /* ---------------------- Linker Text in einer Section ---------------------- */
+    .section-infos-left {
+        position: absolute; top: 55%; left: 5%;
+    }
+    /* *************************************************************************** */
+    /* ----------------------------- Fußzeile-Text ------------------------------- */
+    .footer-text {
+        color: white;
+        padding: 0 20px 20px 10%;
+    }
+    /* ----------------------- Background der Home Website ----------------------- */
+    .b-home{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/home.jpg");
+    }
+    /* ------------------------- Body der Home Webseite --------------------------- */
+    .body-home{
+        z-index: 50;
+        width: 90%;
+        height: 187%;
+        overflow: hidden;
+        background: #00000099;
+        backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
+    /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
+    .body-text{
+        width: 90%;
+        color: white;
+        margin: 0 auto;
+        display: block;
+        font-family: Calibri;
+        /* border: 1px solid black; */
+    }
+    /* ---------------------------- Paragraph im body-text-------------------------- */
+    .body-text p {
+        color: white;
+        font-size: large;
+
+    }
+    /* ----------------------- Linear gradiant von blau zu rot --------------------- */
+    .gradient {
+        width: fit-content;
+        filter: brightness(200%);
+        background: linear-gradient(120deg,#0059d4,#b40000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /* -------------------------------- Fußzeile --------------------------------- */
+    footer {
+        width: 100%;
+        position: absolute; bottom: 0;
+    }
 }
