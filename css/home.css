@@ -27,7 +27,7 @@
     /* *************************************************************************** */
     /* -------------------- Section bei der das Img links ist -------------------- */
     .section-img-left img {
-        position: relative; left: 10%;
+        position: relative; top: 400px; left: 18%;
     }
     /* ---------------------- Rechter Text in einer Section ---------------------- */
     .section-infos-right {
@@ -38,6 +38,7 @@
     /* *************************************************************************** */
     /* -------------------- Section bei der das Img rechts ist ------------------- */
     .section-img-right img {
+        display: none;
         position: absolute; top: 55%; right: 10%;
     }
     /* ---------------------- Linker Text in einer Section ---------------------- */
@@ -96,6 +97,13 @@
     footer {
         width: 100%;
         position: absolute; bottom: 0;
+    }
+    .fa{
+        border: 0;
+        color: black;
+        margin: 0 5px 0 5px;
+        text-decoration: none;
+        background: transparent;
     }
 }
 
