@@ -139,14 +139,15 @@
         box-shadow: 10px 10px 10px #00000099;
     }
     .b-home{
-        /* background-size: cover; */
+        background-size: cover;
         filter: brightness(100%);
+        background-position: 50%;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        /* background-image: url("../Bilder/home.jpg"); */
+        background-image: url("../Bilder/home.jpg");
     }
     .b-firma{
-        height: 100%;
+        /* height: 100%; */
         background-size: cover;
         filter: saturate(100%);
         background-position: 50%;
@@ -155,7 +156,7 @@
         background-image: url("../Bilder/bmw-firma-gebeude.jpg");
     }
     .b-autos{
-        height: 100%;
+        /* height: 100%; */
         background-size: cover;
         background-position: 50%;
         filter: brightness(100%);
@@ -164,7 +165,7 @@
         background-image: url("../Bilder/bmw_grün.jpg");
     }
     .b-neues{
-        height: 100%;
+        /* height: 100%; */
         background-size: cover;
         background-position: 50%;
         filter: brightness(100%);
@@ -173,7 +174,7 @@
         background-image: url("../Bilder/bmw-ix.jpg");
     }
     .b-mitarbeiter{
-        height: 100%;
+        /* height: 100%; */
         background-size: cover;
         background-position: 50%;
         filter: brightness(100%);
