@@ -147,15 +147,17 @@
     }
     .b-firma{
         height: 100%;
-        background-size: auto;
+        background-size: cover;
         filter: saturate(100%);
+        background-position: 50%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-image: url("../Bilder/bmw-firma-gebeude.jpg");
     }
     .b-autos{
         height: 100%;
-        background-size: auto;
+        background-size: cover;
+        background-position: 50%;
         filter: brightness(100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -164,6 +166,7 @@
     .b-neues{
         height: 100%;
         background-size: cover;
+        background-position: 50%;
         filter: brightness(100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -172,6 +175,7 @@
     .b-mitarbeiter{
         height: 100%;
         background-size: cover;
+        background-position: 50%;
         filter: brightness(100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
