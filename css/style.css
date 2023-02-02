@@ -104,8 +104,8 @@
         width: 80%;
         color: white;
         margin: 0 auto;
+        text-decoration: none;
         height: fit-content;
-        border: 1px solid black;
     }
     .flex{
         display: flex;
