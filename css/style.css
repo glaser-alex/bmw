@@ -147,7 +147,7 @@
     }
     .b-firma{
         height: 100%;
-        background-size: cover;
+        background-size: auto;
         filter: saturate(100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -155,7 +155,7 @@
     }
     .b-autos{
         height: 100%;
-        background-size: cover;
+        background-size: auto;
         filter: brightness(100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
