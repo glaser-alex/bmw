@@ -48,11 +48,6 @@
     }
 
     /* *************************************************************************** */
-    /* ----------------------------- Fußzeile-Text ------------------------------- */
-    .footer-text {
-        color: white;
-        padding: 0 20px 20px 10%;
-    }
     /* ----------------------- Background der Home Website ----------------------- */
     .b-home{
         height: 100%;
@@ -99,10 +94,15 @@
         width: 100%;
         position: absolute; bottom: 0;
     }
+    /* ----------------------------- Fußzeile-Text ------------------------------- */
+    .footer-text {
+        color: white;
+        padding: 0 20px 20px 10%;
+    }
     .fa{
         border: 0;
-        color: black;
-        margin: 0 5px 0 5px;
+        color: white;
+        margin: 0 50px 0 5px;
         text-decoration: none;
         background: transparent;
     }
