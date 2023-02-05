@@ -35,13 +35,13 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
-  color: white;
+  background-color: #ffffffF0;
+  color: black;
   padding: 10px 15px;
   border: none;
   position: relative; right: 0;
 }
 
 .openbtn:hover {
-  background-color:#444;
+  /* background-color:#444; */
 }
