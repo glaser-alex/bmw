@@ -409,7 +409,7 @@
         z-index: 50;
         transition: 0.2s;
         overflow: hidden;
-        background: #ffffff50;
+        background: #00000050;
         backdrop-filter: blur(10px);
     }
     .body a{

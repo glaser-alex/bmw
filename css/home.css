@@ -90,6 +90,14 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    /* ----------------------- Linear gradiant für insta --------------------- */
+    .gradient-insta {
+        width: fit-content;
+        filter: brightness(200%);
+        background: linear-gradient(120deg,#ffc100,#ff1f25,#b100a3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     /* -------------------------------- Fußzeile --------------------------------- */
     footer {
         width: 100%;
@@ -101,6 +109,13 @@
         padding: 0 20px 20px 10%;
     }
     .fa{
+        border: 0;
+        color: white;
+        margin: 0 50px 0 5px;
+        text-decoration: none;
+        background: transparent;
+    }
+    #insta-footer{
         border: 0;
         color: white;
         margin: 0 50px 0 5px;
@@ -201,6 +216,14 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+   /* ----------------------- Linear gradiant für insta --------------------- */
+   .gradient-insta {
+       width: fit-content;
+       filter: brightness(200%);
+       background: linear-gradient(120deg,#ffc100,#ff1f25,#b100a3);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+    }
     /* -------------------------------- Fußzeile --------------------------------- */
     footer {
         width: 100%;
@@ -265,7 +288,6 @@
         z-index: 0;
         height: 100%;
         background-size: cover;
-        filter: brightness(100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-image: url("../Bilder/home.jpg");
@@ -302,9 +324,26 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .gradient-insta {
+        width: fit-content;
+        filter: brightness(200%);
+        background: linear-gradient(120deg,#ffc100,#ff1f25,#b100a3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
     /* -------------------------------- Fußzeile --------------------------------- */
     footer {
         width: 100%;
         position: absolute; bottom: 0;
+    }
+    #insta-footer{
+        border: 0;
+        color: white;
+        margin: 0 50px 0 5px;
+        text-decoration: none;
+        background: transparent;
+    }
+    #link-footer {
+        display: none;
     }
 }

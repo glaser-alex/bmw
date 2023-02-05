@@ -197,13 +197,15 @@
         /* border: 1px solid black; */
     }
     .table{
-        z-index: 1030;
+        z-index: 1000;
+        padding: 0;
+        margin: 0;
         width: 100%;
         font-size: 20px;
         letter-spacing: 3px;
         background-color: #ffffff;
         box-shadow: 5px 0px 30px black;
-        position: fixed; top: 0; right: 0; left: 0;
+        position: fixed; top: 0; left: 0;
     }
     .tr-1 :first-child{
         display: flex;
