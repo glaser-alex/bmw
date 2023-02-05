@@ -326,6 +326,7 @@
         box-shadow: 10px 10px 10px #00000099;
     }
     .b-home{
+        z-index: 0;
         background-size: cover;
         filter: brightness(100%);
         background-position: 50%;
@@ -369,7 +370,6 @@
         background-attachment: fixed;
         background-image: url("../Bilder/BMW-Logo.webp");
     }
-
 }
 
 /* -------------------------------- Desktop -------------------------------- */

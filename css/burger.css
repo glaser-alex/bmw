@@ -35,7 +35,7 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #ffffffF0;
+  background-color: white;
   color: black;
   padding: 10px 15px;
   border: none;

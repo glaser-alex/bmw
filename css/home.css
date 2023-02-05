@@ -111,7 +111,113 @@
 
 /* -------------------------------- Tablet -------------------------------- */
 @media only screen and (min-width: 420px) and (max-width: 720px) {
+    html{
+        width: auto;
+        height: 100%;
+    }
+    body{
+        margin: 0;
+        width: 100%;
+        height: 200%;
+        display: block;
+        font-family: Calibri, sans-serif, Arial;
+    }
+    /* ------------------------------- Überschrift ------------------------------- */
+    h1 {
+        width: 100%;
+        font-size: 34px;
+        letter-spacing: 2px;
+        padding-bottom: 10%;
+    }
+    h3 {
+        margin: 0 0 0 20px;
+    }
+    /* -------------------------------- Section ---------------------------------- */
+    section {
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+    }
+    /* *************************************************************************** */
+    /* -------------------- Section bei der das Img links ist -------------------- */
+    .section-img-left img {
+        position: relative; top: 350px; left: 18%;
+    }
+    /* ---------------------- Rechter Text in einer Section ---------------------- */
+    .section-infos-right {
+        position: absolute; left: 0%;
+    }
 
+    /* *************************************************************************** */
+    /* -------------------- Section bei der das Img rechts ist ------------------- */
+    .section-img-right img {
+        display: none;
+    }
+    /* ---------------------- Linker Text in einer Section ---------------------- */
+    .section-infos-left {
+        position: absolute; top: 55%; left: 0%;
+    }
+
+    /* *************************************************************************** */
+    /* ----------------------- Background der Home Website ----------------------- */
+    .b-home{
+        z-index: 0;
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/home.jpg");
+    }
+    /* ------------------------- Body der Home Webseite --------------------------- */
+    .body-home{
+        z-index: 50;
+        width: 90%;
+        height: 187%;
+        overflow: hidden;
+        background: #00000099;
+        backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
+    /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
+    .body-text{
+        width: 90%;
+        color: white;
+        margin: 0 auto;
+        display: block;
+        /* border: 1px solid black; */
+    }
+    /* ---------------------------- Paragraph im body-text-------------------------- */
+    .body-text p {
+        color: white;
+        font-size: large;
+
+    }
+    /* ----------------------- Linear gradiant von blau zu rot --------------------- */
+    .gradient {
+        width: fit-content;
+        filter: brightness(200%);
+        background: linear-gradient(120deg,#0059d4,#b40000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /* -------------------------------- Fußzeile --------------------------------- */
+    footer {
+        width: 100%;
+        position: absolute; bottom: 0;
+    }
+    /* ----------------------------- Fußzeile-Text ------------------------------- */
+    .footer-text {
+        color: white;
+        padding: 0 20px 20px 10%;
+    }
+    .fa{
+        border: 0;
+        color: white;
+        margin: 0 50px 0 5px;
+        text-decoration: none;
+        background: transparent;
+    }
 }
 
 /* -------------------------------- Desktop -------------------------------- */
