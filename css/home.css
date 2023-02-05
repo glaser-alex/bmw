@@ -262,6 +262,7 @@
     }
     /* ----------------------- Background der Home Website ----------------------- */
     .b-home{
+        z-index: 0;
         height: 100%;
         background-size: cover;
         filter: brightness(100%);
