@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../css/nav.css" rel="stylesheet" type="text/css">
   <link href="../css/home.css" rel="stylesheet" type="text/css">
+  <link href="../css/burger.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>HOME | BMW MPerformance</title>
 </head>
@@ -28,13 +29,42 @@
         <td><a id="link-nav" class="fa fa-facebook" target="new" href="https://www.facebook.com/BMWDeutschland"></a></td>
         <td><a id="link-nav" class="fa fa-instagram" target="new" href="https://www.instagram.com/bmwdeutschland"></a></td>
       <td class="space3"></td>
-      <td><img class="logo-mp" src="../Bilder/logo_mperformance.png"></td>
+      <td>
+        <img class="logo-mp" src="../Bilder/logo_mperformance.png">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </td>
       </tr>
       <tr class="tr-2">
         <th colspan="16"></th>
       </tr>
     </table>
   </nav>
+
+     
+
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div> 
+
+    <script>
+      var x = document.getElementById("mySidepanel");
+      function openNav() {
+        if (x.style.width === "250px") {
+          x.style.width = "0";
+        } else {
+          x.style.width = "250px";
+        }
+      }
+      
+      function closeNav() {
+        x.style.width = "0";
+      }
+    </script>
+
   <div class="b-home"></div>
 
     <div class="body-home">
