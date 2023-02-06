@@ -126,7 +126,7 @@
 
 /* ************************************************************************ */
 /* -------------------------------- Tablet -------------------------------- */
-@media only screen and (min-width: 420px) and (max-width: 720px) {
+@media only screen and (min-width: 420px) and (max-width: 999.5px) {
     html{
         width: auto;
         height: 100%;
@@ -172,7 +172,7 @@
     }
     /* ---------------------- Linker Text in einer Section ---------------------- */
     .section-infos-left {
-        margin: 20% 0 0 0;
+        margin: 10% 0 10% 0;
         /* position: absolute; top: 45%; left: 0%; */
     }
 
@@ -250,7 +250,7 @@
 
 /* ************************************************************************ */
 /* -------------------------------- Desktop -------------------------------- */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1000px) {
     /* ------------------------------- Überschrift ------------------------------- */
     h1 {
         letter-spacing: -3px;

@@ -31,11 +31,14 @@
         border-spacing: 0;
         /* border: 1px solid black; */
     }
+    .M-PERFORMANCE a {
+        text-decoration: none;
+    }
     .body{
         z-index: 50;
         transition: 0.2s;
         overflow: hidden;
-        background: #ffffff50;
+        background: #00000050;
         backdrop-filter: blur(10px);
     }
     .body a{
@@ -108,7 +111,7 @@
         height: fit-content;
     }
     .flex{
-        display: flex;
+        /* display: flex; */
     }
     .none{
         display: none;
@@ -186,7 +189,7 @@
 }
 
 /* -------------------------------- Tablet -------------------------------- */
-@media only screen and (min-width: 420px) and (max-width: 720px) {
+@media only screen and (min-width: 420px) and (max-width: 999.5px) {
     html{
         width: auto;
         height: 100%;
@@ -218,16 +221,18 @@
         border-spacing: 0;
         /* border: 1px solid black; */
     }
+    .M-PERFORMANCE a {
+        text-decoration: none;
+    }
     .body{
         z-index: 50;
         transition: 0.2s;
         overflow: hidden;
-        background: #ffffff50;
+        background: #00000050;
         backdrop-filter: blur(10px);
     }
     .body a{
         color: white;
-        text-decoration: none;
     }
     .body1{
         width: 90%;
@@ -295,7 +300,7 @@
         height: fit-content;
     }
     .flex{
-        display: flex;
+        /* display: flex; */
     }
     .none{
         display: none;
@@ -373,7 +378,7 @@
 }
 
 /* -------------------------------- Desktop -------------------------------- */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1000px) {
     html{
         width: auto;
         height: 100%;
@@ -477,9 +482,6 @@
     .body-text{
         width: 80%;
         color: white;
-        margin: 0 auto;
-        height: fit-content;
-        font-family: Calibri;
         /* border: 1px solid black; */
     }
     .flex{
@@ -494,7 +496,7 @@
         box-shadow: 10px 10px 10px #00000099;
     }
     .img-body2{
-        width: 250px;
+        width: 100%;
         height: fit-content;
         position: relative; left: -20px; top: 20px;
         box-shadow: 10px 10px 10px #00000099;
@@ -510,7 +512,7 @@
         box-shadow: 10px 10px 10px #00000099;
     }
     .img-body5{
-        width: 250px;
+        width: 100%;
         height: fit-content;
         position: relative; left: -20px; top: 15px;
         box-shadow: 10px 10px 10px #00000099;

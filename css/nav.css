@@ -85,7 +85,7 @@
 }
 
 /* -------------------------------- Tablet -------------------------------- */
-@media only screen and (min-width: 420px) and (max-width: 720px) {
+@media only screen and (min-width: 420px) and (max-width: 999.5px) {
     table{
         padding: 0;
         border-spacing: 0;
@@ -171,7 +171,7 @@
 }
 
 /* -------------------------------- Desktop -------------------------------- */
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1000px) {
     table{
         padding: 0;
         border-spacing: 0;
