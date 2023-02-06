@@ -1,3 +1,10 @@
+::-moz-selection {
+    background: black;
+  }
+
+html::selection {
+    background: black;
+}
 /* -------------------------------- Mobil -------------------------------- */
 @media only screen and (max-width: 419.5px) {
     html{
@@ -70,7 +77,7 @@
     .body-home {
         z-index: 50;
         width: 90%;
-        height: 187%;
+        height: fit-content;
         overflow: hidden;
         background: #00000099;
         -webkit-backdrop-filter: blur(10px);
@@ -218,7 +225,7 @@
     .body-home {
         z-index: 50;
         width: 90%;
-        height: 187%;
+        height: fit-content;
         overflow: hidden;
         background: #00000099;
         -webkit-backdrop-filter: blur(10px);
@@ -351,7 +358,7 @@
     .body-home {
         z-index: 50;
         width: 90%;
-        height: 187%;
+        height: fit-content;
         overflow: hidden;
         background: #00000099;
         backdrop-filter: blur(10px);
