@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../css/nav.css" rel="stylesheet" type="text/css">
   <link href="../css/style.css" rel="stylesheet" type="text/css">
+  <link href="../css/burger.css" rel="stylesheet" type="text/css">
   <!-- <link rel="icon" type="image/png" href="../Bilder/icon-bmw-3.png"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Autos | BMW MPerformance</title>
@@ -29,7 +30,10 @@
         <td><a id="link-nav" class="fa fa-facebook" target="new" href="https://www.facebook.com/BMWDeutschland"></a></td>
         <td><a id="link-nav" class="fa fa-instagram" target="new" href="https://www.instagram.com/bmwdeutschland"></a></td>
         <td class="space3"></td>
-        <td><img class="logo-mp" src="../Bilder/logo_mperformance.png"></td>
+        <td>
+          <img class="logo-mp" src="../Bilder/logo_mperformance.png">
+          <button class="openbtn" onclick="triggerNav()">≡</button>
+        </td>
       </tr>
       <tr class="tr-2">
         <th colspan="16"></th>
@@ -37,6 +41,30 @@
     </table>
   </nav>
 
+  <div id="mySidepanel" class="sidepanel">
+    <a href="Home.html">Home</a>
+    <hr>
+    <a href="Firma.html">Firma</a>
+    <hr>
+    <a href="Autos.html">Autos</a>
+    <hr>
+    <a href="Neues.html">Neues</a>
+    <hr>
+    <a href="Mitarbeiter.html">Mitarbeiter</a>
+    <hr>
+  </div> 
+
+  <script>
+    var x = document.getElementById("mySidepanel");
+    function triggerNav() {
+      if (x.style.width === "0px") {
+        x.style.width = "180px";
+      } else {
+        x.style.width = "0px";
+      }
+    }
+  </script>
+  
   <div class="M-PERFORMANCE">
     <a href="BMW-M1.html">
       <div id="body1" class="body1 body">
