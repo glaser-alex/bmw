@@ -19,13 +19,13 @@
     color: #818181;
     text-align: right;
     text-decoration: none;
-    margin: 45% 10% 5% 0;
+    padding: 80px 20px 8px 30px;
   }
 
   .sidepanel hr {
     width: 80%;
+    border: 0;
     height: 1px;
-    margin: 10px auto ;
     filter: brightness(250%);
     background: linear-gradient(90deg,#0059d4,#00204e,#b40000);
   }
@@ -66,13 +66,13 @@
     color: #818181;
     text-align: right;
     text-decoration: none;
-    margin: 45% 10% 5% 0;
+    padding: 80px 40px 8px 32px;
   }
 
   .sidepanel hr {
     width: 80%;
+    border: 0;
     height: 1px;
-    margin: 10px auto ;
     filter: brightness(250%);
     background: linear-gradient(90deg,#0059d4,#00204e,#b40000);
   }
