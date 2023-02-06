@@ -141,7 +141,7 @@
     /* ------------------------------- Überschrift ------------------------------- */
     h1 {
         width: 100%;
-        font-size: 34px;
+        font-size: 45px;
         letter-spacing: 2px;
         padding-bottom: 10%;
     }
@@ -251,6 +251,17 @@
 /* ************************************************************************ */
 /* -------------------------------- Desktop -------------------------------- */
 @media only screen and (min-width: 1000px) {
+    html{
+        width: auto;
+        height: 100%;
+    }
+    body{
+        margin: 0;
+        width: 100%;
+        height: 200%;
+        display: block;
+        font-family: Calibri, sans-serif, Arial;
+    }
     /* ------------------------------- Überschrift ------------------------------- */
     h1 {
         letter-spacing: -3px;
