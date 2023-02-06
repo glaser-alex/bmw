@@ -23,18 +23,17 @@
     }
     /* -------------------------------- Section ---------------------------------- */
     section {
-        margin: 0 auto;
-        display: flex;
         width: 100%;
     }
     /* *************************************************************************** */
     /* -------------------- Section bei der das Img links ist -------------------- */
     .section-img-left img {
-        position: relative; top: 350px; left: 18%;
+        display: none;
+        /* position: relative; top: 350px; left: 18%; */
     }
     /* ---------------------- Rechter Text in einer Section ---------------------- */
     .section-infos-right {
-        position: absolute; left: 0%;
+        /* position: absolute; left: 0%; */
     }
 
     /* *************************************************************************** */
@@ -44,7 +43,8 @@
     }
     /* ---------------------- Linker Text in einer Section ---------------------- */
     .section-infos-left {
-        position: absolute; top: 55%; left: 0%;
+        margin: 20% 0 0 0;
+        /* position: absolute; top: 45%; left: 0%; */
     }
 
     /* *************************************************************************** */
@@ -52,6 +52,7 @@
     .b-home{
         z-index: 0;
         height: 100%;
+        background-position: 60%;
         background-size: cover;
         filter: brightness(100%);
         background-repeat: no-repeat;
@@ -62,22 +63,20 @@
     .body-home{
         z-index: 50;
         width: 90%;
-        height: 187%;
-        overflow: hidden;
         background: #00000099;
         backdrop-filter: blur(10px);
         position: absolute; top: 13%; left: 5%;
     }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
-    .body-text{
+    .body-inhalt{
         width: 90%;
         color: white;
         margin: 0 auto;
         display: block;
         /* border: 1px solid black; */
     }
-    /* ---------------------------- Paragraph im body-text-------------------------- */
-    .body-text p {
+    /* ---------------------------- Paragraph im body-inhalt-------------------------- */
+    .body-inhalt p {
         color: white;
         font-size: large;
     }
@@ -97,10 +96,12 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .JeSUS {
+        text-shadow: 0 0 10px yellow;
+    }
     /* -------------------------------- Fußzeile --------------------------------- */
     footer {
         width: 100%;
-        position: absolute; bottom: 0;
     }
     /* ----------------------------- Fußzeile-Text ------------------------------- */
     .footer-text {
@@ -123,6 +124,7 @@
     }
 }
 
+/* ************************************************************************ */
 /* -------------------------------- Tablet -------------------------------- */
 @media only screen and (min-width: 420px) and (max-width: 720px) {
     html{
@@ -155,11 +157,12 @@
     /* *************************************************************************** */
     /* -------------------- Section bei der das Img links ist -------------------- */
     .section-img-left img {
-        position: relative; top: 350px; left: 18%;
+        display: none;
+        /* position: relative; top: 350px; left: 18%; */
     }
     /* ---------------------- Rechter Text in einer Section ---------------------- */
     .section-infos-right {
-        position: absolute; left: 0%;
+        /* position: absolute; left: 0%; */
     }
 
     /* *************************************************************************** */
@@ -169,7 +172,8 @@
     }
     /* ---------------------- Linker Text in einer Section ---------------------- */
     .section-infos-left {
-        position: absolute; top: 55%; left: 0%;
+        margin: 20% 0 0 0;
+        /* position: absolute; top: 45%; left: 0%; */
     }
 
     /* *************************************************************************** */
@@ -177,6 +181,7 @@
     .b-home{
         z-index: 0;
         height: 100%;
+        background-position: 60%;
         background-size: cover;
         filter: brightness(100%);
         background-repeat: no-repeat;
@@ -187,22 +192,20 @@
     .body-home{
         z-index: 50;
         width: 90%;
-        height: 187%;
-        overflow: hidden;
         background: #00000099;
         backdrop-filter: blur(10px);
         position: absolute; top: 13%; left: 5%;
     }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
-    .body-text{
+    .body-inhalt{
         width: 90%;
         color: white;
         margin: 0 auto;
         display: block;
         /* border: 1px solid black; */
     }
-    /* ---------------------------- Paragraph im body-text-------------------------- */
-    .body-text p {
+    /* ---------------------------- Paragraph im body-inhalt-------------------------- */
+    .body-inhalt p {
         color: white;
         font-size: large;
 
@@ -223,10 +226,13 @@
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
     }
+    .JeSUS {
+        text-shadow: 0 0 10px yellow;
+    }
     /* -------------------------------- Fußzeile --------------------------------- */
     footer {
-        width: 100%;
-        position: absolute; bottom: 0;
+        /* width: 100%; */
+        /* position: absolute; bottom: 0; */
     }
     /* ----------------------------- Fußzeile-Text ------------------------------- */
     .footer-text {
@@ -242,6 +248,7 @@
     }
 }
 
+/* ************************************************************************ */
 /* -------------------------------- Desktop -------------------------------- */
 @media only screen and (min-width: 720px) {
     /* ------------------------------- Überschrift ------------------------------- */
@@ -302,15 +309,15 @@
         position: absolute; top: 13%; left: 5%;
     }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
-    .body-text{
+    .body-inhalt{
         width: 90%;
         color: white;
         margin: 0 auto;
         display: block;
         /* border: 1px solid black; */
     }
-    /* ---------------------------- Paragraph im body-text-------------------------- */
-    .body-text p {
+    /* ---------------------------- Paragraph im body-inhalt-------------------------- */
+    .body-inhalt p {
         color: white;
         font-size: large;
 
@@ -330,6 +337,9 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
      }
+     .JeSUS {
+        text-shadow: 0 0 10px yellow;
+    }
     /* -------------------------------- Fußzeile --------------------------------- */
     footer {
         width: 100%;

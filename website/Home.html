@@ -31,7 +31,7 @@
       <td class="space3"></td>
       <td>
         <img class="logo-mp" src="../Bilder/logo_mperformance.png">
-        <button class="openbtn" onclick="openNav()">☰</button>
+        <button class="openbtn" onclick="triggerNav()">≡</button>
       </td>
       </tr>
       <tr class="tr-2">
@@ -40,40 +40,33 @@
     </table>
   </nav>
 
-     
-
     <div id="mySidepanel" class="sidepanel">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="Firma.html">Firma</a>
+      <a href="Autos.html">Autos</a>
+      <a href="Neues.html">Neues</a>
+      <a href="Mitarbeiter.html">Mitarbeiter</a>
     </div> 
 
     <script>
       var x = document.getElementById("mySidepanel");
-      function openNav() {
+      function triggerNav() {
         if (x.style.width === "250px") {
           x.style.width = "0";
         } else {
           x.style.width = "250px";
         }
       }
-      
-      function closeNav() {
-        x.style.width = "0";
-      }
     </script>
 
   <div class="b-home"></div>
 
     <div class="body-home">
-      <div class="body-text">
-        <h1>some <span class="gradient">random</span> shit<br><span class="gradient">about</span> me and <span style="text-shadow: 0 0 10px yellow;">jeSUS</span></h1>
+      <div class="body-inhalt">
+        <h1>some <span class="gradient">random</span> shit<br><span class="gradient">about</span><span class="JeSUS"> JeSUS</span></h1>
         <section class="section-img-left">
-          <img src="../Bilder/jesus.jpg" alt="Bild von jesus" width="200px">
+          <img src="../Bilder/jesus.jpg" alt="Bild von jesus" width="20%">
           <div class="section-infos-right">
-            <h3>Ein paar <span class="gradient">infos</span> über <span style="text-shadow: 0 0 10px yellow;">JeSUS</span></h3>
+            <h3>Ein paar <span class="gradient">infos</span> über <span class="JeSUS">JeSUS</span></h3>
             <ul>
               <li>
                 Jesus kam in Bethlehem in Judäa zur Welt.
@@ -95,7 +88,7 @@
         </section>
         <section class="section-img-right">
           <div class="section-infos-left">
-            <h3>Ein paar <span class="gradient">infos</span> über <span style="text-shadow: 0 0 10px yellow;">JeSUS</span></h3>
+            <h3>Ein paar <span class="gradient">infos</span> über <span class="JeSUS">JeSUS</span></h3>
             <ul>
               <li>
                 Jesus kam in Bethlehem in Judäa zur Welt.
@@ -120,8 +113,11 @@
       <footer>
         <hr>
         <div class="footer-text">
-          <h4>Das ist der Footer</h4>Ich hab kein plan was ich da reinschreiben könnte<br>Erlich gesagt wüsste ich schon etwas<br>
-          Ich könnte meinen Insta verlinken<br><br>Hier ist valentinas Insta
+          <h4>Das ist der Footer</h4>
+          Ich hab kein plan was ich da reinschreiben könnte<br>Erlich gesagt wüsste ich schon etwas<br>
+          Ich könnte irgendein Insta verlinken
+          <br><br>
+          Hier ist valentinas Insta
           <a id="insta-footer" class="fa fa-instagram" target="new" href="https://www.instagram.com/valisstyle_"><span class="gradient-insta"> Instergram</span></a>
           <br><br>
           <a id="link-footer" class="fa fa-map-marker" target="new" href="https://www.bmw.de/de/fastlane/dealer-locator.html"></a>

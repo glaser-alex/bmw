@@ -14,7 +14,7 @@ body {
 }
 
 .sidepanel a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 30px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -26,22 +26,11 @@ body {
   color: #f1f1f1;
 }
 
-.sidepanel .closebtn {
-  position: absolute;
-  right: 25px;
-  font-size: 36px;
-}
-
 .openbtn {
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 10px 15px;
   border: none;
   position: relative; right: 0;
-}
-
-.openbtn:hover {
-  /* background-color:#444; */
 }
