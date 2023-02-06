@@ -109,11 +109,20 @@
         padding: 0 20px 20px 10%;
     }
     .fa{
-        border: 0;
         color: white;
-        margin: 0 50px 0 5px;
         text-decoration: none;
         background: transparent;
+    }
+    .grid-container {
+        gap: 0px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-left: 10%;
+    }
+      
+    .grid-container > a {
+        font-size: 20px;
+        width: fit-content;
     }
     #insta-footer{
         border: 0;
@@ -240,11 +249,20 @@
         padding: 0 20px 20px 10%;
     }
     .fa{
-        border: 0;
         color: white;
-        margin: 0 50px 0 5px;
         text-decoration: none;
         background: transparent;
+    }
+    .grid-container {
+        gap: 0px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-left: 10%;
+    }
+      
+    .grid-container > a {
+        font-size: 20px;
+        width: fit-content;
     }
 }
 
@@ -317,6 +335,16 @@
         overflow: hidden;
         background: #00000099;
         backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
+    .body-home{
+        z-index: 50;
+        width: 90%;
+        height: 187%;
+        overflow: hidden;
+        background: #00000099;
+        -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
         position: absolute; top: 13%; left: 5%;
     }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */

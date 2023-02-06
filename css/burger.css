@@ -1,35 +1,78 @@
-.sidepanel  {
-  width: 0;
-  z-index: 100;
-  height: 200px;
-  transition: 0.5s;
-  padding-top: 50px;
-  overflow-x: hidden;
-  backdrop-filter: blur(10px);
-  background-color: #00000090;
-  position: fixed; top: 0; right: 0;
-  font-family: Calibri, sans-serif, Arial;
+/* -------------------------------- Mobil -------------------------------- */
+@media only screen and (max-width: 419.5px) {
+  .sidepanel  {
+    width: 0;
+    z-index: 100;
+    height: 200px;
+    transition: 0.5s;
+    padding-top: 50px;
+    overflow-x: hidden;
+    backdrop-filter: blur(10px);
+    background-color: #00000090;
+    position: fixed; top: 0; right: 0;
+    font-family: Calibri, sans-serif, Arial;
+  }
+
+  .sidepanel a {
+    display: block;
+    font-size: 25px;
+    color: #818181;
+    transition: 0.3s;
+    text-align: right;
+    text-decoration: none;
+    padding: 8px 30px 8px 0px;
+  }
+
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  .openbtn {
+    border: none;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    position: relative; right: 0;
+  }
 }
 
-.sidepanel a {
-  display: block;
-  font-size: 25px;
-  color: #818181;
-  transition: 0.3s;
-  text-align: right;
-  text-decoration: none;
-  padding: 8px 30px 8px 0px;
-}
+/* ************************************************************************ */
+/* -------------------------------- Tablet -------------------------------- */
+@media only screen and (min-width: 420px) and (max-width: 999.5px) {
+  .sidepanel  {
+    width: 0;
+    z-index: 100;
+    height: 200px;
+    transition: 0.5s;
+    padding-top: 50px;
+    overflow-x: hidden;
+    backdrop-filter: blur(10px);
+    background-color: #00000090;
+    position: fixed; top: 0; right: 0;
+    font-family: Calibri, sans-serif, Arial;
+  }
 
-.sidepanel a:hover {
-  color: #f1f1f1;
-}
+  .sidepanel a {
+    display: block;
+    font-size: 25px;
+    color: #818181;
+    transition: 0.3s;
+    text-align: right;
+    text-decoration: none;
+    padding: 8px 30px 8px 0px;
+  }
 
-.openbtn {
-  border: none;
-  color: black;
-  font-size: 30px;
-  cursor: pointer;
-  background-color: white;
-  position: relative; right: 0;
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+
+  .openbtn {
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    position: relative; right: 0;
+  }
 }
