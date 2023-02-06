@@ -1,96 +1,228 @@
-.body-m{
-    z-index: 50;
-    width: 90%;
-    height: 180%;
-    overflow: hidden;
-    background: #ffffff50;
-    backdrop-filter: blur(10px);
-    position: absolute; top: 15%; left: 5%;
+/* -------------------------------- Mobil -------------------------------- */
+@media only screen and (max-width: 419.5px) {
+    .body-m{
+        z-index: 50;
+        width: 90%;
+        background: #00000099;
+        backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
+    .body-m{
+        z-index: 50;
+        width: 90%;
+        height: fit-content;
+        overflow: hidden;
+        background: #00000099;
+        -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
+    .body-text{
+        width: 90%;
+        color: white;
+        margin: 0 auto;
+        display: block;
+        /* border: 1px solid black; */
+    }
+    .body-text p {
+        color: black;
+        font-size: large;
+    }
+    .flex{
+        display: flex;
+    }
+    .none{
+        display: none;
+    }
+    .b-m1{
+        background-size: cover;
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m1.jpg");
+    }
+    .b-m2{
+        background-size: cover;
+        filter: brightness(100%);
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m2.jpg");
+    }
+    .b-m3{
+        background-size: cover;
+        filter: brightness(100%);
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m3.jpg");
+    }
+    .b-m4{
+        background-size: cover;
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-filter: brightness() saturate();
+        filter: brightness(100%) saturate(150%);
+        background-image: url("../Bilder/bmw-m4.jpg");
+    }
+    .b-m5{
+        background-size: cover;
+        filter: brightness(100%);
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m5.jpg");
+    }
 }
-.body-m1{
-    width: 90%;
-    height: 200%;
-}
-.body-m2{
-    width: 90%;
-    height: 200%;
-}
-.body-m3{
-    width: 90%;
-    height: 200%;
-}
-.body-m4{
-    width: 90%;
-    height: 200%;
-}
-.body-m5{
-    width: 90%;
-    height: 200%;
-}
-.body-text{
-    width: 90%;
-    color: white;
-    margin: 0 auto;
-    font-family: Calibri;
-    /* border: 1px solid black; */
-}
-.body-text p {
-    color: black;
-    font-size: large;
 
+/* ************************************************************************ */
+/* -------------------------------- Tablet -------------------------------- */
+@media only screen and (min-width: 420px) and (max-width: 999.5px) {
+    .body-m{
+        z-index: 50;
+        width: 90%;
+        height: 180%;
+        overflow: hidden;
+        background: #ffffff50;
+        backdrop-filter: blur(10px);
+        position: absolute; top: 15%; left: 5%;
+    }
+    .body-text{
+        width: 90%;
+        color: white;
+        margin: 0 auto;
+        font-family: Calibri;
+        /* border: 1px solid black; */
+    }
+    .body-text p {
+        color: black;
+        font-size: large;
+    
+    }
+    .flex{
+        display: flex;
+    }
+    .block{
+        display: none;
+    }
+    .b-m1{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(80%);
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m1.jpg");
+    }
+    .b-m2{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m2.jpg");
+    }
+    .b-m3{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m3.jpg");
+    }
+    .b-m4{
+        height: 100%;
+        background-size: cover;
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-filter: brightness() saturate();
+        filter: brightness(100%) saturate(150%);
+        background-image: url("../Bilder/bmw-m4.jpg");
+    }
+    .b-m5{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-position: (50%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m5.jpg");
+    }
 }
-.flex{
-    display: flex;
-}
-.block{
-    display: none;
-}
-.b-m1{
-    height: 100%;
-    background-size: cover;
-    filter: brightness(80%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("../Bilder/bmw-m1.jpg");
-}
-.b-m2{
-    height: 100%;
-    background-size: cover;
-    filter: brightness(100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("../Bilder/bmw-m2.jpg");
-}
-.b-m3{
-    height: 100%;
-    background-size: cover;
-    filter: brightness(100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("../Bilder/bmw-m3.jpg");
-}
-.b-m4{
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-filter: brightness() saturate();
-    filter: brightness(100%) saturate(150%);
-    background-image: url("../Bilder/bmw-m4.jpg");
-}
-.b-m5{
-    height: 100%;
-    background-size: cover;
-    filter: brightness(100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("../Bilder/bmw-m5.jpg");
-}
-.b-home{
-    height: 100%;
-    background-size: cover;
-    filter: brightness(100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url("../Bilder/home.jpg");
+
+/* ************************************************************************ */
+/* -------------------------------- Desktop -------------------------------- */
+@media only screen and (min-width: 1000px) {
+    .body-m{
+        z-index: 50;
+        width: 90%;
+        height: 180%;
+        overflow: hidden;
+        background: #ffffff50;
+        backdrop-filter: blur(10px);
+        position: absolute; top: 15%; left: 5%;
+    }
+    .body-text{
+        width: 90%;
+        color: white;
+        margin: 0 auto;
+        font-family: Calibri;
+        /* border: 1px solid black; */
+    }
+    .body-text p {
+        color: black;
+        font-size: large;
+    
+    }
+    .flex{
+        display: flex;
+    }
+    .block{
+        display: none;
+    }
+    .b-m1{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(80%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m1.jpg");
+    }
+    .b-m2{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m2.jpg");
+    }
+    .b-m3{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m3.jpg");
+    }
+    .b-m4{
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-filter: brightness() saturate();
+        filter: brightness(100%) saturate(150%);
+        background-image: url("../Bilder/bmw-m4.jpg");
+    }
+    .b-m5{
+        height: 100%;
+        background-size: cover;
+        filter: brightness(100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("../Bilder/bmw-m5.jpg");
+    }
 }
