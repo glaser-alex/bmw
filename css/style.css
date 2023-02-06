@@ -41,6 +41,16 @@
         background: #00000050;
         backdrop-filter: blur(10px);
     }
+    .body{
+        z-index: 50;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        overflow: hidden;
+        background: #00000050;
+        -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+    }
     .body a{
         color: white;
         text-decoration: none;
@@ -231,6 +241,16 @@
         background: #00000050;
         backdrop-filter: blur(10px);
     }
+    .body{
+        z-index: 50;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        overflow: hidden;
+        background: #00000050;
+        -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+    }
     .body a{
         color: white;
     }
@@ -416,6 +436,16 @@
         overflow: hidden;
         background: #00000050;
         backdrop-filter: blur(10px);
+    }
+    .body{
+        z-index: 50;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+        overflow: hidden;
+        background: #00000050;
+        -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
     }
     .body a{
         text-decoration: none;
