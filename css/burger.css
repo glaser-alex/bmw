@@ -1,14 +1,14 @@
 /* -------------------------------- Mobil -------------------------------- */
 @media only screen and (max-width: 419.5px) {
-  .sidepanel  {
+  .sidepanel {
     width: 0;
     z-index: 100;
-    height: 200px;
+    height: 93%;
     transition: 0.5s;
     padding-top: 50px;
     overflow-x: hidden;
+    background-color: white;
     backdrop-filter: blur(10px);
-    background-color: #000000aa;
     position: fixed; top: 0; right: 0;
     font-family: Calibri, sans-serif, Arial;
   }
@@ -17,14 +17,21 @@
     display: block;
     font-size: 25px;
     color: #818181;
-    transition: 0.3s;
     text-align: right;
     text-decoration: none;
-    padding: 8px 30px 8px 0px;
+    margin: 45% 10% 5% 0;
+  }
+
+  .sidepanel hr {
+    width: 80%;
+    height: 1px;
+    margin: 10px auto ;
+    filter: brightness(250%);
+    background: linear-gradient(90deg,#0059d4,#00204e,#b40000);
   }
 
   .sidepanel a:hover {
-    color: #f1f1f1;
+    color: black;
   }
 
   .openbtn {
@@ -43,12 +50,12 @@
   .sidepanel  {
     width: 0;
     z-index: 100;
-    height: 200px;
+    height: 93%;
     transition: 0.5s;
     padding-top: 50px;
     overflow-x: hidden;
+    background-color: white;
     backdrop-filter: blur(10px);
-    background-color: #000000aa;
     position: fixed; top: 0; right: 0;
     font-family: Calibri, sans-serif, Arial;
   }
@@ -57,14 +64,21 @@
     display: block;
     font-size: 25px;
     color: #818181;
-    transition: 0.3s;
     text-align: right;
     text-decoration: none;
-    padding: 8px 30px 8px 0px;
+    margin: 45% 10% 5% 0;
+  }
+
+  .sidepanel hr {
+    width: 80%;
+    height: 1px;
+    margin: 10px auto ;
+    filter: brightness(250%);
+    background: linear-gradient(90deg,#0059d4,#00204e,#b40000);
   }
 
   .sidepanel a:hover {
-    color: #f1f1f1;
+    color: black;
   }
 
   .openbtn {
