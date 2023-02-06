@@ -66,7 +66,7 @@
         background: #00000099;
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
-        position: absolute; top: 10%; left: 5%;
+        position: relative; left: 5%;
     }
     /* ---------------- Inhalt einstellungen im Body der Home Webseite -------------- */
     .body-inhalt{
@@ -205,7 +205,7 @@
         background: #00000099;
         -webkit-backdrop-filter: blur(10px);
                 backdrop-filter: blur(10px);
-        position: absolute; top: 10%; left: 5%;
+        position: absolute; top: 13%; left: 5%;
     }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
     .body-inhalt{
@@ -303,7 +303,6 @@
     .section-infos-right {
         position: absolute; right: 10%;
     }
-    /* *************************************************************************** */
 
     /* *************************************************************************** */
     /* -------------------- Section bei der das Img rechts ist ------------------- */
@@ -314,17 +313,14 @@
     .section-infos-left {
         position: absolute; top: 55%; left: 5%;
     }
+
     /* *************************************************************************** */
-    /* ----------------------------- Fußzeile-Text ------------------------------- */
-    .footer-text {
-        color: white;
-        padding: 0 20px 20px 10%;
-    }
     /* ----------------------- Background der Home Website ----------------------- */
     .b-home {
         z-index: 0;
-        /* height: 100%; */
         background-size: cover;
+        -webkit-filter: brightness(100%);
+                filter: brightness(100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-image: url("../Bilder/home.jpg");
@@ -334,12 +330,12 @@
         z-index: 50;
         width: 90%;
         height: 180%;
-        overflow: hidden;
         background: #00000099;
         -webkit-backdrop-filter: blur(10px);
                 backdrop-filter: blur(10px);
-        position: absolute; top: 13%; left: 5%;
+        position: relative; left: 5%;
     }
+    /* ------------------------- Body der Home Webseite --------------------------- */
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
     .body-inhalt {
         width: 90%;
@@ -376,6 +372,11 @@
     footer {
         width: 100%;
         position: absolute; bottom: 0;
+    }
+    /* ----------------------------- Fußzeile-Text ------------------------------- */
+    .footer-text {
+        color: white;
+        padding: 0 20px 20px 10%;
     }
     #insta-footer{
         border: 0;

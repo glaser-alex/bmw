@@ -200,7 +200,7 @@
         letter-spacing: 3px;
         background-color: #ffffff;
         box-shadow: 5px 0px 30px black;
-        position: fixed; top: 0; left: 0;
+        position: sticky; top: 0; left: 0;
     }
     .tr-1 :first-child{
         display: flex;
@@ -264,9 +264,6 @@
     }
     .logo-mp{
         height: 15px;
-    }
-    .openbtn {
-        display: none;
     }
     .space{
         width: 10%;
