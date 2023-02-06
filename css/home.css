@@ -67,6 +67,16 @@
         backdrop-filter: blur(10px);
         position: absolute; top: 13%; left: 5%;
     }
+    .body-home {
+        z-index: 50;
+        width: 90%;
+        height: 187%;
+        overflow: hidden;
+        background: #00000099;
+        -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
     .body-inhalt{
         width: 90%;
@@ -205,6 +215,16 @@
         backdrop-filter: blur(10px);
         position: absolute; top: 13%; left: 5%;
     }
+    .body-home {
+        z-index: 50;
+        width: 90%;
+        height: 187%;
+        overflow: hidden;
+        background: #00000099;
+        -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+        position: absolute; top: 13%; left: 5%;
+    }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
     .body-inhalt{
         width: 90%;
@@ -319,7 +339,7 @@
         padding: 0 20px 20px 10%;
     }
     /* ----------------------- Background der Home Website ----------------------- */
-    .b-home{
+    .b-home {
         z-index: 0;
         height: 100%;
         background-size: cover;
@@ -328,7 +348,7 @@
         background-image: url("../Bilder/home.jpg");
     }
     /* ------------------------- Body der Home Webseite --------------------------- */
-    .body-home{
+    .body-home {
         z-index: 50;
         width: 90%;
         height: 187%;
@@ -337,7 +357,7 @@
         backdrop-filter: blur(10px);
         position: absolute; top: 13%; left: 5%;
     }
-    .body-home{
+    .body-home {
         z-index: 50;
         width: 90%;
         height: 187%;
@@ -348,7 +368,7 @@
         position: absolute; top: 13%; left: 5%;
     }
     /* ---------------- Text einstellungen im Body der Home Webseite -------------- */
-    .body-inhalt{
+    .body-inhalt {
         width: 90%;
         color: white;
         margin: 0 auto;
