@@ -51,9 +51,7 @@
         display: none;
     }
     .link{
-        width: 0;
-        padding-left: 3px;
-        padding-right: 6px;
+        width: 20%;
     }
     .link a{
         height: 25px;
@@ -139,9 +137,7 @@
         display: none;
     }
     .link{
-        width: 0;
-        padding-left: 3px;
-        padding-right: 6px;
+        width: 20%;
     }
     .link a{
         height: 25px;
